@@ -37,8 +37,11 @@ var expect = function(val)
 }
 
 };
-func =()=> expect(2).toBe(2);
-func =()=> expect(5).notToBe(null);
+ console.log( expect(2).toBe(2));
+
+console.log(expect(5).notToBe(null));
+ 
+
 
 /**
  * expect(5).toBe(5); // true
