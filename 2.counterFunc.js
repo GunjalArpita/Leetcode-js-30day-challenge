@@ -30,9 +30,11 @@ var createCounter = function(n) {
     };
 };
  let counter=createCounter(10);
- counter();
- counter();
- counter();
+ console.log(  counter());
+ console.log(  counter());
+ console.log(  counter());
+//  counter();
+//  counter();
 /** 
  * const counter = createCounter(10)
  * counter() // 10
